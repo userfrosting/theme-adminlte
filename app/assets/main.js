@@ -24,6 +24,7 @@ require('./adminlte/AdminLTE-custom');
 const Handlebars = require("handlebars/dist/handlebars");
 global.Handlebars = Handlebars;
 require('jquery-validation');
+require("jquery-validation/dist/additional-methods.js")
 require('jquery-slimscroll');
 require('icheck');
 require('icheck/skins/square/blue.css');
